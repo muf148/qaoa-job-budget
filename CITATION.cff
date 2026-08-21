@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: >-
+  Counting jobs, not shots: batched pattern search for the quantum
+  approximate optimization algorithm on cloud-accessed hardware
+message: If you use this software or data, please cite the paper.
+type: software
+authors:
+  - given-names: Muhammad
+    family-names: Faryad
+    email: muhammad.faryad@lums.edu.pk
+    affiliation: >-
+      Department of Physics, Lahore University of Management Sciences (LUMS)
+    orcid: 'https://orcid.org/PUT-YOUR-ORCID-HERE'
+repository-code: 'https://github.com/PUT-YOUR-USERNAME/qaoa-job-budget'
+license: MIT
+keywords:
+  - quantum computing
+  - QAOA
+  - variational quantum algorithms
+  - portfolio optimization
+  - derivative-free optimization
+preferred-citation:
+  type: article
+  title: >-
+    Counting jobs, not shots: batched pattern search for the quantum
+    approximate optimization algorithm on cloud-accessed hardware
+  authors:
+    - given-names: Muhammad
+      family-names: Faryad
+  year: 2026
+  journal: arXiv preprint
+  identifiers:
+    - type: other
+      value: 'arXiv:PUT-ARXIV-ID-HERE'
