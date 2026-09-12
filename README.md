@@ -121,24 +121,7 @@ $n = 6$ and $n = 8$ runs.
 
 ---
 
-## Three things that will cost you a run
 
-Recorded here because each fails silently rather than loudly.
-
-1. **`BitArray.get_int_counts()` with no argument merges every parameter row of a PUB into one
-   dictionary.** A batched run that does this produces plausible output that is entirely
-   meaningless. The row index is mandatory.
-2. **The parameters of a transpiled circuit are ordered by *name*, not by construction
-   order.** Assemble the parameter array by name lookup.
-3. **An explicit `initial_layout` must be asserted to have survived the pass manager**, or the
-   circuit can quietly move off the chosen qubit chain.
-4. **Reading the runtime's reported usage through `job.metrics()` is version-dependent**, and a
-   `try/except` around it hides a wrong key path behind a plausible fallback. Ours did, on every
-   job — which is why `qpu_measured` in these files equals `qpu_predicted` everywhere, and why
-   the paper reports metered time as modelled rather than measured. Wall-clock times *are*
-   measured. If you want the device's own number, assert that you got one.
-
----
 
 ## Licence
 
@@ -150,20 +133,15 @@ Data (`data/`) and figures: CC-BY-4.0.
 ```bibtex
 @misc{faryad2026jobs,
   author = {Faryad, Muhammad},
-  title  = {Counting jobs, not shots: batched pattern search for the quantum approximate
-            optimization algorithm on cloud-accessed hardware},
+  title  = {Batched pattern search for QAOA parameter optimization on
+cloud-accessed quantum hardware},
   year   = {2026},
   eprint = {<arXiv id>},
   archivePrefix = {arXiv}
 }
 ```
 
-## A note on the workshop
 
-The hands-on workshop *Financial Portfolio Optimization with QAOA*
-(<https://maven.com/faryad>) is a separate offering and is not included in this repository.
-These notebooks are single-purpose reproduction artifacts for the paper above; the workshop is
-a taught course with its own materials, exercises and live support.
 
 ## Acknowledgements
 
