@@ -1,7 +1,8 @@
-# Counting jobs, not shots
+# Batched pattern search for QAOA parameter optimization on
+cloud-accessed quantum hardware
 
-Data, notebooks and analysis for *"Counting jobs, not shots: batched pattern search for the
-quantum approximate optimization algorithm on cloud-accessed hardware"* (M. Faryad).
+Data, notebooks and analysis for *"Batched pattern search for QAOA parameter optimization on
+cloud-accessed quantum hardware"* (M. Faryad).
 
 Everything here reproduces the paper end to end: run the notebooks to regenerate the data, or
 run the analysis scripts on the released data to regenerate every figure, table and number in
