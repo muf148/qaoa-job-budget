@@ -92,10 +92,6 @@ files alone — including ones we did not report, such as CVaR at a different $\
 
 https://arxiv.org/pdf/2609.13669
 
-`numbers.tex` is a file of LaTeX macros emitted by `make_tables.py`. **No number in the
-manuscript is typed by hand** — each one is a macro that resolves to a value computed from the
-released data, so the text cannot drift out of step with the results.
-
 ---
 
 ## Reproducing
