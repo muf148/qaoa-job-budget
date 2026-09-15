@@ -136,7 +136,7 @@ Data (`data/`) and figures: CC-BY-4.0.
   title  = {Batched pattern search for QAOA parameter optimization on
 cloud-accessed quantum hardware},
   year   = {2026},
-  eprint = {<arXiv id>},
+  eprint = {[2609.13669]},
   archivePrefix = {arXiv}
 }
 ```
