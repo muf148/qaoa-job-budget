@@ -90,14 +90,7 @@ files alone — including ones we did not report, such as CVaR at a different $\
 
 ### `paper/`
 
-```
-qaoa_job_budget.tex   manuscript (revtex4-2)
-refs.bib              bibliography
-analyze.py            loads the JSON, rebuilds the Hamiltonians, verifies the mapping
-make_figures.py       every figure
-make_tables.py        every table, and numbers.tex
-figures/              generated PDFs and PNGs
-```
+https://arxiv.org/pdf/2609.13669
 
 `numbers.tex` is a file of LaTeX macros emitted by `make_tables.py`. **No number in the
 manuscript is typed by hand** — each one is a macro that resolves to a value computed from the
